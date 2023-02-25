@@ -1,0 +1,27 @@
+const MAX_SHEETS = 3 // Maximum number of sheets in a printer
+
+set PRINT_ACTIONS = {acquirePrint, print, acquireRefill, refill, release}
+
+// Initialise printer with given number of sheets and continue
+PRINTER (PAPER_COUNT = MAX_SHEETS) = PRINTER[PAPER_COUNT],
+PRINTER[p : 0..PAPER_COUNT] = 
+	if (p > 0)
+	then (acquirePrint -> print -> release -> PRINTER[p-1])
+	else (acquireRefill -> refill -> release -> PRINTER[MAX_SHEETS]).
+
+// Initialise student and print given number of documents
+STUDENT(DOCUMENT_COUNT = 1) = STUDENT[DOCUMENT_COUNT],
+STUDENT[document : 1..DOCUMENT_COUNT] = (
+	acquirePrint -> print[document] ->
+		if (document > 1)
+		then (release -> STUDENT[document-1])
+		else (release -> END) | // Prints the last document
+		wait -> STUDENT
+) + PRINT_ACTIONS / {print/print[document:1..DOCUMENT_COUNT]}.
+
+TECHNICIAN = (
+	acquireRefill -> refill -> release -> TECHNICIAN |
+	wait -> TECHNICIAN
+) + PRINT_ACTIONS.
+
+||PRINTING_SYSTEM = (s3: STUDENT(3) || s2: STUDENT(2) || t: TECHNICIAN || {s3, s2, t} :: PRINTER).

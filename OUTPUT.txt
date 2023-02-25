@@ -1,0 +1,129 @@
+"C:\Program Files\Java\jdk-13.0.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar=55480:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\bin" -Dfile.encoding=UTF-8 -classpath "D:\YEAR 4\Concurrent Programming\CCCW\out\production\CCCW" com.company.PrintingSystem
+Enough sheets for the job [ Current sheets count : 250 ]
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student D printed the document number 1 including 17 pages
+Available sheets count : 233	Current toner level : 483
+-----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student A printed the document number 1 including 14 pages
+Available sheets count : 219	Current toner level : 469
+-----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student C printed the document number 1 including 23 pages
+Available sheets count : 196	Current toner level : 446
+-----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student B printed the document number 1 including 23 pages
+Available sheets count : 173	Current toner level : 423
+-----------------------------------------------------------------------------------------------------------------------------------
+Still not reached to minimum toner level  [ Current toner level : 423 ]
+Alert ! ! !  -->  Not enough papers in the tray 
+Refilling . . . . 
+Papers refilled  Successfully ! 
+Still not reached to minimum toner level  [ Current toner level : 423 ]
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student D printed the document number 2 including 16 pages
+Available sheets count : 207	Current toner level : 407
+-----------------------------------------------------------------------------------------------------------------------------------
+Still not reached to minimum toner level  [ Current toner level : 407 ]
+Enough sheets for the job [ Current sheets count : 207 ]
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student C printed the document number 2 including 15 pages
+Available sheets count : 192	Current toner level : 392
+-----------------------------------------------------------------------------------------------------------------------------------
+Still not reached to minimum toner level  [ Current toner level : 392 ]
+Alert ! ! !  -->  Not enough papers in the tray 
+Refilling . . . . 
+Papers refilled  Successfully ! 
+Still not reached to minimum toner level  [ Current toner level : 392 ]
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student B printed the document number 2 including 23 pages
+Available sheets count : 219	Current toner level : 369
+-----------------------------------------------------------------------------------------------------------------------------------
+Still not reached to minimum toner level  [ Current toner level : 369 ]
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student A printed the document number 2 including 12 pages
+Available sheets count : 207	Current toner level : 357
+-----------------------------------------------------------------------------------------------------------------------------------
+Still not reached to minimum toner level  [ Current toner level : 357 ]
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student D printed the document number 3 including 25 pages
+Available sheets count : 182	Current toner level : 332
+-----------------------------------------------------------------------------------------------------------------------------------
+Still not reached to minimum toner level  [ Current toner level : 332 ]
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student B printed the document number 3 including 24 pages
+Available sheets count : 158	Current toner level : 308
+-----------------------------------------------------------------------------------------------------------------------------------
+Still not reached to minimum toner level  [ Current toner level : 308 ]
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student C printed the document number 3 including 22 pages
+Available sheets count : 136	Current toner level : 286
+-----------------------------------------------------------------------------------------------------------------------------------
+Still not reached to minimum toner level  [ Current toner level : 286 ]
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student A printed the document number 3 including 22 pages
+Available sheets count : 114	Current toner level : 264
+-----------------------------------------------------------------------------------------------------------------------------------
+Still not reached to minimum toner level  [ Current toner level : 264 ]
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student C printed the document number 4 including 22 pages
+Available sheets count : 92	Current toner level : 242
+-----------------------------------------------------------------------------------------------------------------------------------
+Still not reached to minimum toner level  [ Current toner level : 242 ]
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student B printed the document number 4 including 10 pages
+Available sheets count : 82	Current toner level : 232
+-----------------------------------------------------------------------------------------------------------------------------------
+Still not reached to minimum toner level  [ Current toner level : 232 ]
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student D printed the document number 4 including 22 pages
+Available sheets count : 60	Current toner level : 210
+-----------------------------------------------------------------------------------------------------------------------------------
+Still not reached to minimum toner level  [ Current toner level : 210 ]
+Alert ! ! !  -->  Not enough papers in the tray 
+Refilling . . . . 
+Papers refilled  Successfully ! 
+Still not reached to minimum toner level  [ Current toner level : 210 ]
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student A printed the document number 4 including 12 pages
+Available sheets count : 98	Current toner level : 198
+-----------------------------------------------------------------------------------------------------------------------------------
+Still not reached to minimum toner level  [ Current toner level : 198 ]
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student B printed the document number 5 including 11 pages
+Available sheets count : 87	Current toner level : 187
+-----------------------------------------------------------------------------------------------------------------------------------
+Still not reached to minimum toner level  [ Current toner level : 187 ]
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student D printed the document number 5 including 14 pages
+Available sheets count : 73	Current toner level : 173
+-----------------------------------------------------------------------------------------------------------------------------------
+Still not reached to minimum toner level  [ Current toner level : 173 ]
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student C printed the document number 5 including 20 pages
+Available sheets count : 53	Current toner level : 153
+-----------------------------------------------------------------------------------------------------------------------------------
+Still not reached to minimum toner level  [ Current toner level : 153 ]
+-----------------------------------------------------------------------------------------------------------------------------------
+ -- > Student A printed the document number 5 including 23 pages
+Available sheets count : 30	Current toner level : 130
+-----------------------------------------------------------------------------------------------------------------------------------
+Still not reached to minimum toner level  [ Current toner level : 130 ]
+Paper Technician finished attempts to refill printer with paper packs.
+. . . 
+. . . 
+Toner Technician finished attempts to replace toner cartridges.
+End of the processes . . .
+----------------------------------------------------------------------------------------------------------------------------------- 
+                                                        PRINTER SUMMARY                                                            
+----------------------------------------------------------------------------------------------------------------------------------- 
+Available sheets count : 30	 Current toner level : 130	 Number of printed documents : 20	Printer ID : lp-N1-01
+Paper Technician replaced 3 Cartridges 
+Toner Technician replaced 0 Cartridges 
+Student A printed 5 documents with 83 pages.
+Student B printed 5 documents with 91 pages.
+Student C printed 5 documents with 102 pages.
+Student D printed 5 documents with 94 pages.
+----------------------------------------------------------------------------------------------------------------------------------- 
+Process finished with exit code 0
